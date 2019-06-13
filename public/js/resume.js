@@ -25,10 +25,11 @@
     target: '#sideNav'
   });
 
+  $('[data-toggle="popover"]').popover({
+      trigger: 'hover';
+  });
 })(jQuery); // End of use strict
 
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover({
-        trigger: 'hover';
-    });
-});
+//$(document).ready(function(){
+
+//});
