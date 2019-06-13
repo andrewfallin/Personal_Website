@@ -29,7 +29,11 @@
 
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({
-        trigger: 'hover'
+        trigger: 'hover';
     });
-    $(".pop-top").popover({placement : 'top'});
+
+});
+$(document).ready(function(){
+  $(".pop-top").popover({placement : 'top'});
+
 });
