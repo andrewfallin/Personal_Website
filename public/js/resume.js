@@ -26,8 +26,9 @@
   });
 
   $('[data-toggle="popover"]').popover({
-      trigger: 'hover';
+      trigger: 'hover'
   });
+
 })(jQuery); // End of use strict
 
 //$(document).ready(function(){
