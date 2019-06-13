@@ -28,7 +28,6 @@
 })(jQuery); // End of use strict
 
 $(document).ready(function(){
-    $(".pop-top").popover({placement : 'top'});
     $('[data-toggle="popover"]').popover({
         trigger: 'hover';
     });
